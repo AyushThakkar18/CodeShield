@@ -83,3 +83,6 @@ fallback_report.*
 # Binary executables
 backend/trivy/trivy.exe
 *.exe
+
+# Kiro IDE files
+.kiro/
