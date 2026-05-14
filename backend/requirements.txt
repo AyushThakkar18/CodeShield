@@ -1,0 +1,39 @@
+# FastAPI and web framework dependencies
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+python-multipart==0.0.6
+pydantic==2.5.0
+pydantic-settings==2.1.0
+
+# Security scanning tools
+bandit==1.7.5
+detect-secrets==1.4.0
+# Note: Trivy needs to be installed separately as a binary
+
+# HTTP client for GitHub API
+httpx==0.25.2
+aiofiles==23.2.0
+
+# Report generation
+weasyprint==60.2
+reportlab==4.0.7
+jinja2==3.1.2
+
+# Testing dependencies
+pytest==7.4.3
+pytest-asyncio==0.21.1
+pytest-cov==4.1.0
+httpx==0.25.2
+
+# Development dependencies
+black==23.11.0
+isort==5.12.0
+flake8==6.1.0
+
+# System dependencies for repository cloning
+GitPython==3.1.40
+
+# Temporary file handling (built-in module)
+
+# JSON handling
+orjson==3.9.10

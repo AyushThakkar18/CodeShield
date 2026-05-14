@@ -1,0 +1,85 @@
+# Dependencies
+node_modules/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+.nyc_output/
+
+# Build outputs
+build/
+dist/
+*.egg-info/
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.temp
+
+# Docker
+.dockerignore
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Frontend specific
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Generated security reports
+*_security_report_*.json
+*_security_report_*.pdf
+scan_report_*.json
+scan_report_*.pdf
+demo_report.*
+fallback_report.*
+
+# Binary executables
+backend/trivy/trivy.exe
+*.exe

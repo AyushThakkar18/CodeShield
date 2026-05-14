@@ -1,0 +1,17 @@
+{
+  "scan_id": "demo-scan-001",
+  "repository_url": "https://github.com/demo/vulnerable-repo",
+  "scan_date": "2025-10-07T17:17:12.222472",
+  "summary": {
+    "critical": 4,
+    "high": 13,
+    "medium": 22,
+    "low": 2,
+    "total": 41
+  },
+  "static_analysis_count": 3,
+  "dependencies_count": 29,
+  "secrets_count": 9,
+  "scan_duration": 3.069840431213379,
+  "status": "completed"
+}
