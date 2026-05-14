@@ -41,13 +41,6 @@ codeshield-security-scanner/
    - Frontend: http://localhost:3000
    - Backend API: http://localhost:8000
 
-### Production Deployment
-
-1. Build and run the production containers:
-   ```bash
-   docker-compose up --build -d
-   ```
-2. Access the application at http://localhost
 
 ## Features
 
